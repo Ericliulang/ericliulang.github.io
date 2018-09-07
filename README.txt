@@ -1,3 +1,11 @@
+Eric Liu‘blog
+
+不会编程，可又想做自己的网站
+就只能fork别人的博客了
+感谢🙏HTML5 UP
+
+
+
 Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
