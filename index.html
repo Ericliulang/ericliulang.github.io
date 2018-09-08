@@ -103,6 +103,7 @@
 									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon fa-wechat"><span class="label">WeChat</span></a></li>
 								</ul>
 							</article>
 
@@ -139,21 +140,21 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<section>
 									<h3 class="major">Lists</h3>
 
-									<h4>Unordered</h4>
+									<h4>Unordered无需列表</h4>
 									<ul>
 										<li>Dolor pulvinar etiam.</li>
 										<li>Sagittis adipiscing.</li>
 										<li>Felis enim feugiat.</li>
 									</ul>
 
-									<h4>Alternate</h4>
+									<h4>Alternate备用</h4>
 									<ul class="alt">
 										<li>Dolor pulvinar etiam.</li>
 										<li>Sagittis adipiscing.</li>
 										<li>Felis enim feugiat.</li>
 									</ul>
 
-									<h4>Ordered</h4>
+									<h4>Ordered有序列表</h4>
 									<ol>
 										<li>Dolor pulvinar etiam.</li>
 										<li>Etiam vel felis viverra.</li>
@@ -162,18 +163,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li>Etiam vel felis lorem.</li>
 										<li>Felis enim et feugiat.</li>
 									</ol>
-									<h4>Icons</h4>
+									<h4>Icons图标</h4>
 									<ul class="icons">
 										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon fa-wechat"><span class="label">WeChat</span></a></li>
 									</ul>
 
 									<h4>Actions</h4>
 									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button primary">默认</a></li>
+										<li><a href="#" class="button">非默认</a></li>
 									</ul>
 									<ul class="actions stacked">
 										<li><a href="#" class="button primary">Default</a></li>
@@ -182,7 +184,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 								<section>
-									<h3 class="major">Table</h3>
+									<h3 class="major">Table表格</h3>
 									<h4>Default</h4>
 									<div class="table-wrapper">
 										<table>
@@ -190,7 +192,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 												<tr>
 													<th>Name</th>
 													<th>Description</th>
-													<th>Price</th>
+													<th>Price($)</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -277,7 +279,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 								<section>
-									<h3 class="major">Buttons</h3>
+									<h3 class="major">Buttons按钮</h3>
 									<ul class="actions">
 										<li><a href="#" class="button primary">Primary</a></li>
 										<li><a href="#" class="button">Default</a></li>
@@ -287,17 +289,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li><a href="#" class="button small">Small</a></li>
 									</ul>
 									<ul class="actions">
-										<li><a href="#" class="button primary icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
+										<li><a href="#" class="button primary icon fa-download">下载</a></li>
+										<li><a href="#" class="button icon fa-upload">上传</a></li>
 									</ul>
 									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
+										<li><span class="button primary disabled">不显示</span></li>
+										<li><span class="button disabled">不显示</span></li>
 									</ul>
 								</section>
 
 								<section>
-									<h3 class="major">Form</h3>
+									<h3 class="major">Form填表</h3>
 									<form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
@@ -309,30 +311,32 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
 											</div>
 											<div class="field">
-												<label for="demo-category">Category</label>
+												<label for="demo-category">职位</label>
 												<select name="demo-category" id="demo-category">
 													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
+													<option value="1">CEO</option>
+													<option value="1">开发者</option>
+													<option value="1">产品经理</option>
+													<option value="1">运营</option>
+													<option value="1">市场</option>
+													<option value="1">行政</option>
 												</select>
 											</div>
 											<div class="field half">
 												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
+												<label for="demo-priority-low">Low单选</label>
 											</div>
 											<div class="field half">
 												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
+												<label for="demo-priority-high">High单选</label>
 											</div>
 											<div class="field half">
 												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
+												<label for="demo-copy">Email me a copy多选</label>
 											</div>
 											<div class="field half">
 												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
+												<label for="demo-human">Not a robot多选</label>
 											</div>
 											<div class="field">
 												<label for="demo-message">Message</label>
@@ -340,8 +344,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
+											<li><input type="submit" value="Send Message提交" class="primary" /></li>
+											<li><input type="reset" value="Reset重置" /></li>
 										</ul>
 									</form>
 								</section>
@@ -352,7 +356,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">Design &copy; Liu Lang. 2018.9</p>
 					</footer>
 
 			</div>
